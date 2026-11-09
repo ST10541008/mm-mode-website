@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://st10541008.github.io/mm-mode-website/sitemap.xml

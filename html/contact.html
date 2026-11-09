@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Noella Monga">
+   <meta name="description" content="Contact MM MODE for fashion enquiries, customer support, and store locations in Johannesburg, Gauteng, South Africa.">
+    <title>Contact MM MODE | Fashion Store in Johannesburg</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+       <!-- Leaflet Map Stylesheet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+
+    <header>
+
+        <!-- Logo -->
+
+        <a href="index.html" class="logo">MM MODE</a>
+
+        <!-- Top Right Corner Search Bar -->
+
+      <form class="search-bar" role="search">
+         <input
+              type="search"
+              id="product-search"
+              name="search"
+              placeholder="Search products..."
+              aria-label="Search products"
+            >
+
+            <button type="submit" aria-label="Submit search">
+                <img src="../assets/product.jpg/search.svg" alt="">
+                
+            </button>
+      </form>
+
+
+       <!-- Navigation Links -->
+
+       <nav aria-label="Main navigation">
+           <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="product.html">Product</a></li>
+              <li><a href="enquiry.html">Enquiry</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="cart.html">Cart</a></li>
+           </ul>
+       </nav>
+   </header>
+
+   <!-- Main Section -->
+
+   <main>
+
+       <h1>CONTACT US</h1>
+
+       <!-- Contact Section -->
+       <section class="contact-container">
+
+           <!-- Left Box: Get In Touch -->
+
+            <div class="get-in-touch">
+
+                <h2>GET IN TOUCH</h2>
+
+                <div class="contact-info">
+
+                    <!-- phone -->
+
+                   <div class="info-item">
+                      <img src="../assets/contact.jpg/phone.svg" alt="">
+                      <p>+27 82 597 3081</p>
+                   </div>
+
+                   <div class="info-item">
+                      <img src="../assets/contact.jpg/email-opened.svg" alt="">
+                      <p>info@monganoella.co.za</p>
+                   </div>
+
+                   <div class="info-item">
+                      <img src="../assets/contact.jpg/schedule-calendar.svg" alt="">
+                      <p>Monday-Sunday: 9:00 - 19:00</p>
+                   </div>
+
+                   <div class="info-item">
+                      <img src="../assets/contact.jpg/share.svg" alt="">
+                      <p>Follow us on social media</p>
+                   </div>
+
+                  <div class="social-links">
+                        <a href="#" aria-label="TikTok">TikTok</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                    </div>
+              </div>
+          </div>
+
+         <!-- Right Box: Send Us A Message Form -->
+
+          <div class="send-message">
+              <h2>SEND US A MESSAGE</h2>
+              <form action="#" method="POST">
+                    <table>
+                     <!-- Full Name -->
+                      <tr>
+                          <td><label for="fullname">Full Name:</label></td>
+                          <td><input type="text" id="fullname" name="fullname" placeholder="your name" required></td>
+                      </tr>
+                     <!-- Email -->
+                      <tr>
+                          <td><label for="email">Email:</label></td>
+                          <td> <input type="email" id="email" name="email"placeholder="your email" required></td>
+                      </tr>
+                      <!-- Message -->
+                      <tr>
+                           <td><label for="message">Message:</label></td>
+                           <td><textarea id="message" placeholder="Type your message here" name="message" rows="5" cols="40"></textarea></td>
+                      </tr>
+
+                    </table>
+
+                    <button type="submit" class="button">SEND MESSAGE</button>
+              </form>
+           </div>
+       </section>
+
+       <!-- Our Locations Section -->
+
+        <section class="locations-section">
+            <h2>OUR LOCATIONS</h2>
+            <div class="locations-grid">
+
+              <!-- Location 1 -->
+              <div class="location-card">
+
+                  <h3>MM Mode - Sandton City</h3>
+
+                  <address>
+                      <p>Shop 123, Sandton City</p>
+                      <p>Johannesburg, 2196</p>
+                      <P>Gauteng, South Africa</P>
+                  </address>
+               </div>
+
+               <!-- Location 2 -->
+
+               <div class="location-card">
+
+                  <h3>MM Mode - Mall of Africa</h3>
+                  <address>
+                      <p>Shop 45, Mall of Africa</p>
+                      <p>Midrand, 1685</p>
+                      <p>Gauteng, South Africa</p>
+                  </address>
+               </div>
+          </div>
+
+          <!-- Interactive Map -->
+          <div class="interactive-map-container">
+              <h2>FIND OUR LOCATIONS</h2>
+              <div id="mm-mode-map"></div>
+          </div>
+
+      </section>
+  </main>
+
+  <!-- Footer -->
+
+  <footer>
+
+       <div class="footer-grid">
+          <!-- Brand Colunm -->
+
+          <div class="footer-col">
+              <a href="index.html" class="logo">MM MODE</a>
+              <p>Style,affordable. <br>Made for every moment.</p>
+           </div>
+
+           <!-- Quick Links -->
+           <div class="footer-col">
+              <h3>Quick Links</h3>
+              <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="product.html">Product</a></li>
+                 <li><a href="enquiry.html">Enquiry</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+               </ul>
+           </div>
+
+           <!-- Contact Information -->
+
+           <div class="footer-Col">
+              <h3>Contact Us</h3>
+              <address>
+                 <p>Phone nmuber</p>
+                 <p>Email address</p>
+                 <p>Johannesburg, Gauteng, south Africa</p>
+              </address>
+          </div>
+
+          <!-- Social Links -->
+          <div class="footer-col">
+              <h3>Follow Us</h3>
+
+              <ul class="social-icons">
+                  <li><a href="#" aria-label="TikTok">TikTok</a></li>
+                  <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                  <li><a href="#" aria-label="Twitter">Twitter</a></li>
+              </ul>
+             </div>
+       </div>
+
+      <div class="copyright">
+         <p>&copy;2026 MM MODE | All Rights Reserved</p>
+      </div>
+  </footer>
+
+       <!-- Leaflet Map JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script src="../Js/script.js"></script>
+</body>
+</html>

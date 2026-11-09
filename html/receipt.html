@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="View your MM MODE order receipt and order summary.">
+
+    <title>MM MODE | Order Receipt</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+
+    <header>
+
+        <!-- Logo -->
+        <a href="index.html" class="logo">MM MODE</a>
+
+        <!-- Navigation -->
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Main Content -->
+
+    <main>
+
+        <section class="receipt-container">
+
+            <!-- Thank You Message -->
+
+            <div class="receipt-heading">
+
+                <h1>Thank You for Shopping with MM MODE!</h1>
+
+                <p>
+                    We appreciate your order.
+                    Your shopping experience matters to us.
+                </p>
+
+            </div>
+
+            <!-- Receipt Information -->
+
+            <div class="receipt-details">
+
+                <h2>Order Receipt</h2>
+
+                <p>
+                    <strong>Order Number:</strong>
+                    <span id="receipt-order-number">-</span>
+                </p>
+
+                <p>
+                    <strong>Order Date:</strong>
+                    <span id="receipt-date">-</span>
+                </p>
+
+            </div>
+
+            <!-- Customer Information -->
+
+            <div class="receipt-customer">
+
+                <h2>Customer Information</h2>
+
+                <p>
+                    <strong>Full Name:</strong>
+                    <span id="receipt-name">-</span>
+                </p>
+
+                <p>
+                    <strong>Email Address:</strong>
+                    <span id="receipt-email">-</span>
+                </p>
+
+                <p>
+                    <strong>Phone Number:</strong>
+                    <span id="receipt-phone">-</span>
+                </p>
+
+                <p>
+                    <strong>Delivery Address:</strong>
+                    <span id="receipt-address">-</span>
+                </p>
+
+                <p>
+                    <strong>Enquiry:</strong>
+                    <span id="receipt-enquiry">-</span>
+                </p>
+
+            </div>
+
+            <!-- Purchased Products -->
+
+            <div class="receipt-products">
+
+                <h2>Order Summary</h2>
+
+                <div id="receipt-items">
+
+                    <!-- JavaScript will display selected products here -->
+
+                </div>
+
+                <div class="receipt-total">
+
+                    <h3>
+                        Total Amount:
+                        <span id="receipt-total">R0.00</span>
+                    </h3>
+
+                </div>
+
+            </div>
+
+            <!-- Thank You Footer -->
+
+            <div class="receipt-thank-you">
+
+                <h2>Thank You for Choosing MM MODE!</h2>
+
+                <p>
+                    Style, affordable. Made for every moment.
+                </p>
+
+                <a href="product.html" class="button">
+                    CONTINUE SHOPPING
+                </a>
+
+                <button type="button" id="print-receipt" class="button">
+                    PRINT RECEIPT
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+
+    <footer>
+
+        <div class="footer-grid">
+
+            <div class="footer-col">
+                <a href="index.html" class="logo">MM MODE</a>
+                <p>Style, affordable.<br>Made for every moment.</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <address>
+                    <p>Phone number</p>
+                    <p>Email address</p>
+                    <p>Johannesburg, Gauteng, South Africa</p>
+                </address>
+            </div>
+
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>&copy;2026 MM MODE | All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+    <script src="../Js/script.js" defer></script>
+
+</body>
+</html>

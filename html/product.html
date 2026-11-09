@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" 
+    content="Explore the MM MODE product collection featuring stylish and affordable clothing, footwear, and fashion accessories.">
+    <title>Shop Affordable Clothing, Shoes & Accessories | MM MODE</title>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="preload" href="../lightbox/css/lightbox.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+       <link rel="stylesheet" href="../lightbox/css/lightbox.css">
+    </noscript>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+   
+    <!-- Header -->
+   
+   <header>
+     
+        <!-- Logo -->
+
+        <a href="index.html" class="logo">MM MODE</a>
+
+        <!-- Top Right Corner Search Bar -->
+      <form class="search-bar" role="search">
+         <input
+              type="search"
+              id="product-search"
+              name="search"
+              placeholder="Search products..."
+              aria-label="Search products"
+            >
+
+            <button type="submit" aria-label="Submit search">
+                <img src="../assets/product.jpg/search.svg" alt="">
+            </button>
+      </form>
+
+       <!-- Navigation Links -->
+
+       <nav aria-label="Main navigation">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="product.html">Product</a></li>
+              <li><a href="enquiry.html">Enquiry</a></li> 
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+          </ul>
+      </nav>
+  </header>
+   
+  <!-- Main Content -->
+  
+  <main>
+   
+     <!-- Products Grid Section -->
+
+     <section class="product-container">
+       
+         <h1>Our Products</h1>
+
+         <!-- Product Sorting -->
+         <div class="sort-container">
+              <label for="sort-products">Sort products:</label>
+
+              <select id="sort-products">
+                  <option value="default">Default order</option>
+                  <option value="low">Price: Low to High</option>
+                  <option value="high">Price: High to Low</option>
+                  <option value="az">Name: A to Z</option>
+             </select>
+          </div>
+
+          <div class="products-grid">
+
+
+             <!-- Row 1 -->
+
+             
+                 <!-- Product 1 -->
+                <article class="product-card"
+                  data-id="product-1"
+                  data-name="Elegance White High-Neck Halter Backless Maxi Dress"
+                  data-price="790">
+
+                  <a href="../assets/product.jpg/06-09-22Studio5_CE_RL_14-59-28_32_FN603_White_P_1461_KS.webp"
+                       data-lightbox="mm-mode-products"
+                       data-title="Elegance White High-Neck Halter Backless Maxi Dress">
+
+                       <img src="../assets/product.jpg/06-09-22Studio5_CE_RL_14-59-28_32_FN603_White_P_1461_KS.webp"
+                           alt="Women's white high-neck halter backless maxi dress"
+                         fetchpriority="high">
+                       
+                  </a>
+
+                    <h3>Elegance White High-Neck Halter Backless Maxi Dress</h3>
+
+                     <p>R790</p>
+
+                     <button type="button" class="button add-to-cart">
+                           ADD TO CART
+                     </button>
+              </article>
+
+              <!-- Product 2 -->
+              <article class="product-card"
+                   data-id="product-2"
+                   data-name="Burgundy Ribbed Long-Sleeve Dress"
+                   data-price="299">
+
+                 <a href="../assets/product.jpg/1669087414e686be66bdf8a8658cb770df2605825b_thumbnail_720x.webp"
+                      data-lightbox="mm-mode-products"
+                       data-title="Burgundy Ribbed Long-Sleeve Dress">
+
+                       <img src="../assets/product.jpg/1669087414e686be66bdf8a8658cb770df2605825b_thumbnail_720x.webp"
+                          alt="Women's burgundy ribbed long-sleeve dress"
+                          loading="lazy">
+                 </a>
+
+                  <h3>Burgundy Ribbed Long-Sleeve Dress</h3>
+                   <p>R299</p>
+
+                   <button type="button" class="button add-to-cart">ADD TO CART</button>
+              </article>
+
+               <!-- Product 3 -->
+              <article class="product-card"
+                 data-id="product-3"
+                 data-name="Women's Classic Black Wide-Brim Fedora Hat"
+                 data-price="199">
+
+                  <a href="../assets/product.jpg/behrouz-sasani-phVUYEX5_os-unsplash.webp"
+                      data-lightbox="mm-mode-products"
+                      data-title="Women's Classic Black Wide-Brim Fedora Hat">
+
+                      <img src="../assets/product.jpg/behrouz-sasani-phVUYEX5_os-unsplash.webp"
+                      alt="Women's Classic Black Wide-Brim Fedora Hat" 
+                      loading="lazy">
+                  </a>
+
+                    <h3>Women's Classic Black Wide-Brim Fedora Hat</h3>
+                      <p>R199</p>
+
+                   <button type="button" class="button add-to-cart">ADD TO CART</button>
+             </article>
+
+               <!-- Row 2 -->
+
+               <!-- Product 4 -->
+              <article class="product-card"
+                   data-id="product-4"
+                   data-name="Women's Yellow Cropped Hoodie & Joggers Tracksuit Set"
+                   data-price="499">
+
+                  <a href="../assets/product.jpg/dom-hill-nimElTcTNyY-unsplash.webp"
+                       data-lightbox="mm-mode-products"
+                       data-title="Women's Yellow Cropped Hoodie & Joggers Tracksuit Set">
+
+                      <img src="../assets/product.jpg/dom-hill-nimElTcTNyY-unsplash.webp"
+                         alt="Women's yellow cropped hoodie and joggers tracksuit set"
+                         loading="lazy">
+                   </a>
+
+                    <h3>Women's Yellow Cropped Hoodie & Joggers Tracksuit Set</h3>
+                 <p>R499</p>
+
+                   <button type="button" class="button add-to-cart">ADD TO CART</button>
+             </article>
+               <!-- Product 5 -->
+               <article class="product-card"
+                    data-id="product-5"
+                    data-name="Women's Tailored Plaid Blazer & Cami Top Set"
+                    data-price="599">
+
+                  <a href="../assets/product.jpg/vladimir-yelizarov-2OhHpRu2Fhg-unsplash.webp"
+                       data-lightbox="mm-mode-products"
+                       data-title="Women's Tailored Plaid Blazer & Cami Top Set">
+
+                      <img src="../assets/product.jpg/vladimir-yelizarov-2OhHpRu2Fhg-unsplash.webp"
+                       alt="Women's tailored plaid blazer and matching cami top set"
+                       loading="lazy">
+                   </a>
+
+                     <h3>Women's Tailored Plaid Blazer & Cami Top Set</h3>
+                     <p>R599</p>
+
+                     <button type="button" class="button add-to-cart">ADD TO CART</button>
+             </article>
+
+               <!-- Product 6 -->
+               <article class="product-card"
+                 data-id="product-6"
+                 data-name="Classic Grey Canvas Comfort Sneakers"
+                 data-price="449">
+
+                  <a href="../assets/product.jpg/OIP.webp"
+                     data-lightbox="mm-mode-products"
+                      data-title="Classic Grey Canvas Comfort Sneakers">
+
+                      <img src="../assets/product.jpg/OIP.webp"
+                       alt="Classic grey canvas comfort sneakers"
+                       loading="lazy">
+                  </a>
+
+                   <h3>Classic Grey Canvas Comfort Sneakers</h3>
+                    <p>R449</p>
+
+                   <button type="button" class="button add-to-cart">ADD TO CART</button>
+              </article>
+
+              <!-- Row 3 -->
+
+              <!-- Product 7 -->
+             <article class="product-card"
+                 data-id="product-7"
+                  data-name="Chic Grey Rivet-Trimmed Shoulder Bag Set"
+                   data-price="399">
+
+                 <a href="../assets/product.jpg/photo-1559563458-527698bf5295.avif"
+                      data-lightbox="mm-mode-products"
+                      data-title="Chic Grey Rivet-Trimmed Shoulder Bag Set">
+
+                     <img src="../assets/product.jpg/photo-1559563458-527698bf5295.avif"
+                     alt="Chic grey rivet-trimmed shoulder bag"
+                     loading="lazy">
+                   </a>
+                 <h3>Chic Grey Rivet-Trimmed Shoulder Bag Set</h3>
+                   <p>R399</p>
+
+                   <button type="button" class="button add-to-cart">ADD TO CART</button>
+             </article>
+
+              <!-- Product 8 -->
+              <article class="product-card"
+                   data-id="product-8"
+                   data-name="Smart Casual Grey Textured Suit Jacket"
+                   data-price="899">
+
+                  <a href="../assets/product.jpg/photo-1630173250799-2813d34ed14b.avif"
+                      data-lightbox="mm-mode-products"
+                      data-title="Smart Casual Grey Textured Suit Jacket">
+
+                      <img src="../assets/product.jpg/photo-1630173250799-2813d34ed14b.avif"
+                       alt="Grey textured suit jacket for smart casual outfits"
+                       loading="lazy">
+                 </a>
+
+                   <h3>Smart Casual Grey Textured Suit Jacket</h3>
+                   <p>R899</p>
+
+                  <button type="button" class="button add-to-cart">ADD TO CART</button>
+               </article>
+
+              <!-- Product 9 -->
+              <article class="product-card"
+                   data-id="product-9"
+                   data-name="Bridal Pendant Necklace & Cuff Bracelet Set"
+                   data-price="399">
+
+                 <a href="../assets/product.jpg/premium_photo-1681276169690-a22f1193c784.avif"
+                     data-lightbox="mm-mode-products"
+                     data-title="Bridal Pendant Necklace & Cuff Bracelet Set">
+
+                      <img src="../assets/product.jpg/premium_photo-1681276169690-a22f1193c784.avif"
+                         alt="Bridal pendant necklace and cuff bracelet set"
+                         loading="lazy">
+                 </a>
+                  <h3>Bridal Pendant Necklace & Cuff Bracelet Set</h3>
+                    <p>R399</p>
+
+                     <button type="button" class="button add-to-cart">ADD TO CART</button>
+              </article>
+
+               <!-- Row 4 -->
+
+               <!-- Product 10 -->
+               <article class="product-card"
+                   data-id="product-10"
+                   data-name="Classic Tan Single-Breasted Formal Suit"
+                    data-price="1699">
+
+                   <a href="../assets/product.jpg/photo-1712773663204-9dce38ddae57.avif"
+                        data-lightbox="mm-mode-products"
+                        data-title="Classic Tan Single-Breasted Formal Suit">
+
+                      <img src="../assets/product.jpg/photo-1712773663204-9dce38ddae57.avif"
+                      alt="Classic tan single-breasted formal suit"
+                      loading="lazy">
+                   </a>
+
+                      <h3>Classic Tan Single-Breasted Formal Suit</h3>
+                      <p>R1 699</p>
+
+                  <button type="button" class="button add-to-cart">ADD TO CART</button>
+             </article>
+
+               <!-- Product 11 -->
+              <article class="product-card"
+                  data-id="product-11"
+                  data-name="Blue Unicorn Print Tulle Party Dress"
+                      data-price="249">
+
+                  <a href="../assets/product.jpg/photo-1759313560255-0458c8f4e615.avif"
+                        data-lightbox="mm-mode-products"
+                        data-title="Blue Unicorn Print Tulle Party Dress">
+
+                       <img src="../assets/product.jpg/photo-1759313560255-0458c8f4e615.avif"
+                      alt="Blue unicorn print tulle party dress"
+                      loading="lazy">
+                   </a>
+                 <h3>Blue Unicorn Print Tulle Party Dress</h3>
+                  <p>R249</p>
+
+                 <button type="button" class="button add-to-cart">ADD TO CART</button>
+             </article>
+
+               <!-- Product 12 -->
+               <article class="product-card"
+                  data-id="product-12"
+                  data-name="Elegance Camel Wool-Blend Trench & Fitted Pants Outfit"
+                  data-price="850">
+
+                  <a href="../assets/product.jpg/vladimir-yelizarov-C43tCJffOh4-unsplash.webp"
+                       data-lightbox="mm-mode-products"
+                      data-title="Elegance Camel Wool-Blend Trench & Fitted Pants Outfit">
+
+                         <img src="../assets/product.jpg/vladimir-yelizarov-C43tCJffOh4-unsplash.webp"
+                           alt="Camel wool-blend trench coat and fitted pants outfit"
+                           loading="lazy">
+                   </a>
+
+                     <h3>Elegance Camel Wool-Blend Trench & Fitted Pants Outfit</h3>
+                   <p>R850</p>
+
+                  <button type="button" class="button add-to-cart">ADD TO CART</button>
+             </article>
+          </div>
+
+         <!-- Pagination Navigation -->
+
+         <nav id="pagination-controls"
+             class="pagination"
+             aria-label="Product Pages">
+         </nav>
+      </section>
+  </main>
+
+  <!-- Footer -->
+
+  <footer>
+     
+      <div class="footer-grid">
+
+         <!-- Brand Column -->
+
+         <div class="footer-col">
+             <a href="index.html" class="logo">MM MODE</a>
+             <p>Style,affordable. <br>Made for every moment.</p>
+         </div>
+
+         <!-- Quick Links -->
+         <div class="footer-col">
+              <h3>Quick Links</h3>
+              <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="product.html">Product</a></li>
+                 <li><a href="enquiry.html">Enquiry</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+               </ul>
+         </div>
+
+         <!-- Contact Information -->
+          
+         <div class="footer-Col">
+            <h3>Contact Us</h3>
+            <address>
+                <p>Phone nmuber</p>
+                <p>Email address</p>
+                <p>Johannesburg, Gauteng, South Africa</p>
+            </address>
+         </div>
+
+          <!-- Social Links -->
+          
+         <div class="footer-col">
+              <h3>Follow Us</h3>
+              
+              <ul class="social-icons">
+                  <li><a href="#" aria-label="TikTok">TikTok</a></li>
+                  <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                  <li><a href="#" aria-label="Twitter">Twitter</a></li>
+              </ul>
+             </div>
+       </div>
+
+       <!-- Copyright -->
+       <div class="copyright">
+         <p>&copy;2026 MM MODE | All Rights Reserved</p>
+       </div>
+   </footer>
+ 
+   <script src="../lightbox/js/lightbox-plus-jquery.js"></script>
+
+   <script src="../Js/script.js"></script>
+
+</body>
+</html>
